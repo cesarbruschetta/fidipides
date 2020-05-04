@@ -11,7 +11,7 @@ help:
 all: help
 
 run:
-	@go run ./src/main.go run
+	@go run ./src/main.go ${c}
 
 build:
 	@go build -ldflags \
